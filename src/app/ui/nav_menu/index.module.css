@@ -4,8 +4,8 @@
     justify-items: center;
     height: max-content;
     z-index: 100;
-    position: fixed;
+    position: sticky;
     top: 0;
     grid-template-columns: repeat(3,max-content);
-    gap: 0 10%;
+    gap: 0 20px;
 }

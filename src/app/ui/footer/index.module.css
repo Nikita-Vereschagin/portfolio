@@ -7,6 +7,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     justify-items: flex-end;
+    align-items: center;
 }
 
 .titleBox {
@@ -38,13 +39,14 @@
 .content {
     display: grid;
     justify-items: center;
+    gap: 10px 0;
 }
 
 .contactsBox {
     display: grid;
     width: max-content;
     grid-template-columns: repeat(4,max-content);
-    gap: 0 5px;
+    gap: 5px;
     margin-top: 10px;
 }
 
@@ -55,7 +57,7 @@
 
 @media (max-width: 700px) {
     .main {
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: max-content 2fr;
         grid-template-columns: 1fr;
     }
 }

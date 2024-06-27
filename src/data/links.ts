@@ -1,5 +1,5 @@
 export const linksData = [
-  { href: "#", text: "Обо мне" },
-  { href: "#", text: "Проекты" },
-  { href: "#", text: "Контакты" },
+  { href: "#about", text: "Обо мне" },
+  { href: "#projects", text: "Проекты" },
+  { href: "#contacts", text: "Контакты" },
 ];

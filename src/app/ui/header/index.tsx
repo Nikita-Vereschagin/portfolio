@@ -13,7 +13,7 @@ export const Header = () => {
         Обеспечу разработку веб-проектов, от внешнего интерфейса до серверной
         части.
       </p>
-      <Button href="#" image={arrow}>
+      <Button href="#contacts" image={arrow}>
         Перейти к контактам
       </Button>
     </header>

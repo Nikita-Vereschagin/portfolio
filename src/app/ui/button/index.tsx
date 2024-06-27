@@ -9,11 +9,7 @@ export const Button = (props: TButton) => {
 
   if (children && image) {
     return (
-      <Link
-        target="_blank"
-        href={href}
-        className={`${s.main} ${s.mainTextAndImg}`}
-      >
+      <Link href={href} className={`${s.main} ${s.mainTextAndImg}`}>
         <span className={s.imageBox}>
           <Image className={s.image} src={image} alt="=(" />
         </span>

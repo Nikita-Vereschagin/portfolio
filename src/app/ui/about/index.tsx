@@ -6,7 +6,7 @@ import { useState } from "react";
 
 export const About = () => {
   return (
-    <section className={s.main}>
+    <section className={s.main} id="about">
       <span className={s.titleBox}>
         <h1 className={raleway_bold.className}>
           ОБО

@@ -6,7 +6,7 @@ import { ProjectCard } from "../project_card";
 
 export const Projects = () => {
   return (
-    <section className={s.main}>
+    <section className={s.main} id="projects">
       <span className={s.titleBox}>
         <h2 className={raleway_bold.className}>Проекты</h2>
         <div className={s.circle} />

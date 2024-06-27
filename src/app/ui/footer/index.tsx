@@ -8,7 +8,7 @@ import { Button } from "../button";
 export const Footer = (props: { data: TButton[] }) => {
   const { data } = props;
   return (
-    <footer className={s.main}>
+    <footer className={s.main} id="contacts">
       <span className={s.titleBox}>
         <h2 className={raleway_bold.className}>Контакты</h2>
         <div className={s.line} />
