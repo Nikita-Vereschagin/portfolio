@@ -1,0 +1,14 @@
+.main {
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    justify-items: center;
+    height: max-content;
+    width: 90%;
+    gap: 10px;
+}
+
+.text {
+    width: 75%;
+    text-align: center;
+}

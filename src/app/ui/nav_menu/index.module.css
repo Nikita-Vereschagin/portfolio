@@ -1,0 +1,11 @@
+.main {
+    margin-top: 10px;
+    display: grid;
+    justify-items: center;
+    height: max-content;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    grid-template-columns: repeat(3,max-content);
+    gap: 0 10%;
+}

@@ -1,0 +1,40 @@
+.main {
+    height: max-content;
+    width: 90%;
+    margin: auto;
+    border-top: 1px black solid;
+    margin-top: 25px;
+    padding-top: 25px;
+}
+
+.titleBox {
+    position: relative;
+    height: max-content;
+    display: grid;
+    width: max-content;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.circle {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+    width: 32px;
+    background-color: #FF3333;
+    border-radius: 100%;
+    transition: .5s;
+}
+
+.titleBox:hover > .circle {
+    transform: translateX(350%);
+}
+
+.container {
+    display: grid;
+    gap: 10px 0;
+}
+

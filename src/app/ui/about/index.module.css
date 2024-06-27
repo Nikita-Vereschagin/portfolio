@@ -1,0 +1,31 @@
+.main {
+    height: max-content;
+    width: 90%;
+    margin: auto;
+    border-top: 1px black solid;
+    margin-top: 25px;
+    padding-top: 25px;
+}
+
+.titleBox {
+    height: max-content;
+    display: grid;
+    justify-items: center;
+    position: relative;
+    float: left;
+    margin: 10px 20px 10px 0;
+}
+
+.circle {
+    position: absolute;
+    height: 100%;
+    background-color: #FF3333;
+    border-radius: 100%;
+    min-width: 96px;
+    z-index: -1;
+    transition: .5s;
+}
+
+.titleBox:hover > .circle{
+    transform: scale(1.1);
+}
