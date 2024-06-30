@@ -22,11 +22,7 @@ export const Button = (props: TButton) => {
         <p>{children}</p>
       </Link>
     );
-  } else if (image) {
-    return (
-      <Link target="_blank" href={href} className={`${s.main} ${s.mainImg}`}>
-        <Image className={s.icon} src={image} alt="=(" />
-      </Link>
-    );
+  } else {
+    return "Error";
   }
 };

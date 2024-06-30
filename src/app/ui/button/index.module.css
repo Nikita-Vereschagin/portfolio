@@ -10,12 +10,12 @@
 
 .mainTextAndImg {
     gap: 10px;
-    background-color: rgb(0, 0, 0,.025);
+    background-color: var(--color-link);
     grid-template-columns: min-content max-content;
 }
 
 .mainTextAndImg:hover {
-    background-color: rgb(0, 0, 0,.05);
+    background-color: var(--color-hover-link);
 }
 
 .mainTextAndImg:hover > .imageBox {
@@ -24,7 +24,7 @@
 
 .imageBox {
     border-radius: 100%;
-    background-color: #FF3333;
+    background-color: var(--color-accent);
     display: grid;
     height: 20px;
     width: 20px;
@@ -39,28 +39,12 @@
 }
 
 .mainText {
-    border: 1px black solid;
+    border: 1px var(--color-main) solid;
     padding: 0 5px;
     height: 25px;
 }
 
 .mainText:hover {
-    border: 1px #FF3333 solid;
-    color: #FF3333;
-}
-
-.mainImg {
-    height: 25px;
-    width: 25px;
-    border-radius: 100%;
-    border: 1px black solid;
-    padding: 6px;
-}
-
-.mainImg:hover {
-    border: 1px #FF3333 solid;
-}
-
-.mainImg:hover > .icon {
-    filter: invert(38%) sepia(87%) saturate(3973%) hue-rotate(342deg) brightness(101%) contrast(105%);
+    border: 1px var(--color-accent) solid;
+    color: var(--color-accent);
 }

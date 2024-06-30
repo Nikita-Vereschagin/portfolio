@@ -16,20 +16,26 @@ export const About = () => {
         <div className={s.circle} />
       </span>
       <p className="pb-4">
-        <span className={`text-[#FF3333] ${raleway_bold.className}`}>
+        <span
+          className={`text-[var(--color-accent)] ${raleway_bold.className}`}
+        >
           <span className="text-4xl/[1rem]">М</span>еня{" "}
         </span>
         зовут Никита, и я являюсь фулстек-разработчиком.
       </p>
       <p className="pb-4">
-        <span className={`text-[#FF3333] ${raleway_bold.className}`}>
+        <span
+          className={`text-[var(--color-accent)] ${raleway_bold.className}`}
+        >
           <span className="text-4xl/[1rem]">Н</span>едавно{" "}
         </span>
         я окончил курс веб-разработки от Яндекс Практикума. В настоящее время я
         продолжаю своё обучение в НГТУ на факультете бизнес-информатики.
       </p>
       <p className="pb-4">
-        <span className={`text-[#FF3333] ${raleway_bold.className}`}>
+        <span
+          className={`text-[var(--color-accent)] ${raleway_bold.className}`}
+        >
           <span className="text-4xl/[1rem]">К</span>роме{" "}
         </span>
         того, я постоянно совершенствую свои профессиональные навыки, слежу за
@@ -37,7 +43,9 @@ export const About = () => {
         мероприятиях, связанных с IT-индустрией.
       </p>
       <p className="pb-4">
-        <span className={`text-[#FF3333] ${raleway_bold.className}`}>
+        <span
+          className={`text-[var(--color-accent)] ${raleway_bold.className}`}
+        >
           <span className="text-4xl/[1rem]">П</span>омимо{" "}
         </span>
         учёбы, я посещаю тренажёрный зал. Это помогает мне совершенствоваться не

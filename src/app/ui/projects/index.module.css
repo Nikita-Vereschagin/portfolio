@@ -2,7 +2,7 @@
     height: max-content;
     width: 90%;
     margin: auto;
-    border-top: 1px black solid;
+    border-top: 1px var(--color-main) solid;
     margin-top: 25px;
     padding-top: 25px;
 }
@@ -23,8 +23,8 @@
     bottom: 0;
     z-index: -1;
     height: 100%;
-    width: 32px;
-    background-color: #FF3333;
+    aspect-ratio: 1/1;
+    background-color: var(--color-accent);
     border-radius: 100%;
     transition: .5s;
 }
